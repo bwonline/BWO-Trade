@@ -1,0 +1,97 @@
+#courseBlurb {
+  text-align: center;
+  color: #6d6d6d;
+}
+#courseDateComponent {
+  padding: 0;
+}
+
+#courseDateComponent li:before {
+  content: none !important;
+}
+
+.courseItem {
+  padding: 0 !important;
+  text-indent: 0 !important;
+  display: grid;
+}
+
+.eventBlock {
+  text-align: center;
+  border-top: solid #dacab9 1px;
+  padding: 1rem 0 0;
+}
+
+.eventContent {
+  display: grid;
+}
+
+/* eventCalendar */
+#courseDateComponent .eventCalendar {
+  text-align: center;
+  margin: auto;
+}
+
+#courseDateComponent .eventCalendar .cal-mon {
+  font-size: 16px;
+  color: #dacab9;
+  font-weight: bold;
+}
+
+#courseDateComponent .eventCalendar .cal-day {
+  color: black;
+  font-size: 23px;
+}
+
+#courseDateComponent .eventCalendar .cal-year {
+  color: #dacab9;
+  font-size: 16px;
+}
+
+/* eventInfo */
+.eventInfo {
+  text-align: start;
+}
+.lh-1_5 {
+  line-height: 1.5;
+}
+
+.eventInfo a {
+  text-decoration: underline !important;
+}
+
+/* eventBooking */
+.eventBlock a {
+  text-decoration: none;
+}
+
+.eventBlock .eventBtn {
+  display: block;
+  margin: 0.5rem;
+  border: solid 1px #dacab9;
+  background-color: #dacab9;
+  color: white;
+  padding: 0.5rem;
+}
+
+.eventBlock .eventBtn:hover {
+  background-color: transparent;
+  color: #dacab9;
+}
+
+@media only screen and (max-width: 600px) {
+  .fs-1_3 {
+    font-size: 1.3rem !important;
+  }
+
+  #courseDateComponent .eventCalendar .cal-day {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .eventBlock .eventBtn {
+    width: auto;
+    margin: 1rem auto;
+  }
+}

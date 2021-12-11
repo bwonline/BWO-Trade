@@ -1,0 +1,26 @@
+#education_Locations ul,
+#education_Locations ul li {
+  padding-left: 0;
+  margin: 0;
+}
+
+#education_Locations ul li::before {
+  display: none;
+}
+
+#education_Locations .facility-title {
+  text-align: initial;
+  color: #dacab9;
+  text-transform: uppercase;
+}
+
+#education_Locations .facility-address {
+  display: block;
+  text-align: center;
+  text-decoration: underline !important;
+}
+
+#education_Locations .card {
+  padding: 0;
+  margin: 1.5rem 0;
+}

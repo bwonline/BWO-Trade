@@ -1,0 +1,19 @@
+#guide-CTAs ul li::before {
+  display: none;
+}
+
+.card-title {
+  height: 2rem;
+}
+
+.card-img-top {
+  border: solid darkgrey 1px;
+}
+
+.card-img-top:hover {
+  border: solid #dacab9 1px;
+}
+
+.card .card-title:hover {
+  color: #dacab9;
+}

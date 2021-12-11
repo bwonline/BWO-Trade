@@ -1,0 +1,202 @@
+/* General Styling */
+.outlinesH2 {
+  text-align: center;
+  font-family: "Muli", sans-serif;
+  color: #373737;
+  margin-top: 30px;
+}
+
+.outlinesH2::after {
+  margin: 2rem auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .outlinesH2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+}
+
+#education_fast-track-training ul,
+#education_fast-track-training ul li,
+#education_Educators ul,
+#education_Educators ul li,
+#education_Courses ul,
+#education_Courses ul li {
+  padding-left: 0;
+}
+
+#education_fast-track-training ul li::before,
+#education_Educators ul li::before,
+#education_Courses ul li::before {
+  display: none;
+}
+
+/* Courses Introduction */
+#home_introduction {
+  margin-bottom: 1rem;
+}
+
+#home_introduction #habiaLogo {
+  width: 25%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+#home_introduction .read-more-state {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  #home_introduction #habiaLogo {
+    width: 60%;
+  }
+
+  #home_introduction .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: 0.25s ease;
+  }
+
+  #home_introduction
+    .read-more-state:checked
+    ~ .read-more-wrap
+    .read-more-target {
+    opacity: 1;
+    font-size: inherit;
+    max-height: 999em;
+  }
+
+  #home_introduction .read-more-state ~ .read-more-trigger:before {
+    content: "Read More";
+  }
+
+  #home_introduction .read-more-state:checked ~ .read-more-trigger:before {
+    content: "Read Less";
+  }
+
+  #home_introduction .read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 0.5em;
+    color: #666;
+    font-size: 0.9em;
+    line-height: 2;
+    border: 1px solid #ddd;
+    border-radius: 0.25em;
+  }
+}
+
+/* One Day : Fast Track Training  */
+#education_fast-track-training .fastTrack {
+  text-align: center;
+}
+
+#education_fast-track-training .fastTrack p {
+  color: #373737 !important;
+}
+
+@media only screen and (max-width: 800px) {
+  #education_fast-track-training .fastTrack p {
+    height: 6rem;
+  }
+}
+
+/* What You Will Learn */
+#home_what-you-learn .wywl-list li:before {
+  color: #dacab9;
+}
+
+@media only screen and (max-width: 600px) {
+  #home_what-you-learn #wywl {
+    text-align: center;
+  }
+
+  #home_what-you-learn #wywl-one ul {
+    margin-bottom: 0em;
+  }
+
+  #home_what-you-learn .wywl-list {
+    margin-top: 0;
+  }
+}
+
+/* Meet Our Educators */
+#education_Educators .card .card-img-top {
+  max-width: 80%;
+}
+
+#education_Educators .card-body ul li {
+  margin-bottom: 2px;
+}
+
+#education_Educators .card-body h6,
+#education_Educators .card-body .fa {
+  color: #dacab9;
+  margin-bottom: 1rem;
+}
+
+#education_Educators .card-text {
+  margin-bottom: 1rem !important;
+}
+
+#education_Educators .card-body .educator-IG {
+  font-size: 1.7rem;
+}
+
+#education_Educators .card-body .educator-bio {
+  height: 30rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  #education_Educators .card-body .educator-bio {
+    height: 25rem;
+  }
+
+  #education_Educators .card-text,
+  #education_Educators ul {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  #education_Educators .card-body .educator-IG {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #education_Educators .card-body .educator-bio {
+    height: 32rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #education_Educators .card {
+    padding: 10px 0;
+  }
+
+  #education_Educators .card-body h6 {
+    font-size: 1.3rem;
+  }
+
+  #education_Educators .card-body .educator-bio {
+    height: auto;
+  }
+
+  #education_Educators .card-body .educator-IG {
+    font-size: 1.7rem;
+  }
+}
+
+/* Course We Offer */
+#education_Courses .card-title {
+  color: #dacab9 !important;
+  height: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #education_Courses .card-title {
+    height: 3.5rem;
+  }
+}

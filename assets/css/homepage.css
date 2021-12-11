@@ -1,0 +1,143 @@
+.noticeBanner {
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: white;
+  padding: 10px 0px;
+  background-color: #373737;
+  margin-bottom: 15px;
+}
+
+.homeSldr {
+  margin-bottom: 20px;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  position: initial;
+}
+
+.swiper-pagination-bullet {
+  height: 15px;
+  width: 15px;
+  opacity: 1;
+  background: transparent;
+  border: solid #373737 1px;
+  margin: 25px 5px 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #373737;
+}
+
+#homepage-lg_CTAs ul,
+#homepage-sm_CTAs ul,
+#homeTutorials ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+#homepage-lg_CTAs ul li,
+#homepage-sm_CTAs ul li,
+#homeTutorials ul li {
+  padding-left: 0;
+}
+
+#homepage-lg_CTAs ul li:before,
+#homepage-sm_CTAs ul li:before,
+#homeTutorials ul li:before {
+  display: none;
+}
+
+.sm-CTA {
+  height: 14rem;
+}
+
+.homeOutlines {
+  text-align: center;
+  font-family: "Muli", sans-serif;
+  color: #373737;
+  margin-top: 30px;
+  font-size: 3rem;
+}
+
+.homeOutlines::after {
+  margin: 2rem auto;
+}
+
+.vidText {
+  height: 14rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .lg-CTA {
+    height: 7rem;
+  }
+
+  .sm-CTA {
+    height: 19rem;
+  }
+
+  .tutorialEmb {
+    width: 430px;
+    height: 240px;
+  }
+
+  .vidText {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .homeSldr {
+    margin-bottom: 20px;
+  }
+
+  .homeOutlines {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+
+  .tutorialEmb {
+    width: 330px;
+    height: 185px;
+  }
+
+  .vidText {
+    height: 16rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .noticeBanner {
+    font-size: 1rem;
+  }
+
+  .lg-CTA,
+  .sm-CTA {
+    height: auto;
+  }
+
+  .tutorialEmb {
+    width: auto;
+    height: 210px;
+  }
+
+  .vidText {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .noticeBanner {
+    font-size: 0.9rem;
+  }
+
+  .tutorialEmb {
+    width: 560px;
+    height: 315px;
+  }
+
+  #homeTutorials .card-btn {
+    font-size: 1rem;
+    padding: 6px;
+  }
+}

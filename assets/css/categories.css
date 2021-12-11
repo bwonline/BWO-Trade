@@ -1,0 +1,245 @@
+.category-view {
+  display: flow-root;
+  margin-bottom: 5rem;
+}
+
+.bwCategory .card .card-title {
+  font-size: 1.4rem;
+}
+
+.bwCategory ul,
+.bwCategory .card ul,
+.bwCategory .card ul li {
+  padding-left: 0 !important;
+}
+
+.bwCategory .card ul {
+  display: flow-root;
+  font-size: 1.3rem;
+}
+
+.bwCategory .card .card-text,
+.bwCategory .card li {
+  margin-bottom: 0 !important;
+}
+
+.bwCategory ul li:before,
+.bwCategory .card li:before {
+  display: none;
+}
+
+.bwCategory .card .card-btn {
+  font-size: 1.3rem;
+  padding: 0.8rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bwCategory .card .card-title {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .catalog-category-view .page-main .category-view {
+    padding-top: 14rem;
+  }
+
+  .category-view .page-title-wrapper h1.page-title {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .catalog-category-view .page-main .category-view {
+    padding-top: 1rem;
+  }
+
+  .bwCategory .card .card-img-top {
+    width: 65%;
+  }
+
+  .bwCategory .card .card-title {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .category-view .page-title-wrapper h1.page-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* CLIP-INS CATEGORY & SUBCATEGORIES - Custom Styling */
+#clipInCategory .clip-in-hair-extensions .card ul {
+  height: 10rem;
+}
+
+#clipInCategory .clip-in-hair-extensions .card .card-btn {
+  font-size: 1.2rem;
+}
+
+#ponytailClipIns .clip-in-ponytail .card-btn {
+  font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  #clipInCategory #halfWeft .card .card-btn,
+  #clipInCategory #beachWaves .card .card-btn,
+  #ponytailClipIns .clip-in-ponytail .card-btn {
+    font-size: 9px;
+    padding: 1rem 0.5rem;
+  }
+
+  #ponytailClipIns .clip-in-ponytail .card-btn {
+    padding: 1rem 0.5rem;
+  }
+
+  #beachWaveHairSet .beach-wave-hair-set .card .card-btn {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  #dblHairSet .double-hair-set .card ul {
+    height: 10rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #clipInCategory #halfWeft .card .card-btn,
+  #clipInCategory #beachWaves .card .card-btn,
+  #ponytailClipIns .clip-in-ponytail .card-btn,
+  #halfWeftSet .double-half-weft .card .card-btn {
+    font-size: 1rem;
+    padding: 1rem 0.8rem;
+  }
+
+  #dblHairSet .double-hair-set .card .card-btn {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #clipInCategory .clip-in-hair-extensions .card ul,
+  #dblHairSet .double-hair-set .card ul {
+    height: auto;
+  }
+
+  #clipInCategory #halfWeft .card .card-btn,
+  #clipInCategory #beachWaves .card .card-btn,
+  #dblHairSet .double-hair-set .card .card-btn {
+    font-size: 1.2rem;
+  }
+
+  #beachWaveHairSet .beach-wave-hair-set .card .card-btn {
+    font-size: 1.1rem;
+  }
+}
+
+/* PROFESSIONAL EXTENSIONS CATEGORY & SUBCATEGORIES - Custom Styling */
+#profExtCategory .professional-extensions .card ul {
+  height: 7rem;
+}
+
+#ccStickTip .celebrity-choice-stick-tip .card .card-img-top,
+#ccNanoBond .celebrity-choice-nano-bond .card .card-img-top {
+  width: 75%;
+}
+
+#ccStickTip .celebrity-choice-stick-tip .card .card-btn,
+#ccNanoBond .celebrity-choice-nano-bond .card .card-btn {
+  padding: 1rem;
+}
+
+#prebondedExt .pre-bonded-extensions .card .card-btn,
+#ccslimlineTape .tape-extensions .card .card-btn {
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  #profExtCategory .professional-extensions .card .card-btn,
+  #weftExt .weft-extensions .card .card-btn,
+  #ccWeft .celebrity-choice-weft-extensions .card .card-btn,
+  #goldDblWeft .gold-double-weft .card .card-btn,
+  #tapeExt .tape-extensions .card .card-btn {
+    font-size: 1.1rem;
+    padding: 1rem 0.5rem;
+  }
+
+  #ccWeft .celebrity-choice-weft-extensions .card-btn,
+  #ccStickTip .celebrity-choice-stick-tip .card .card-btn {
+    font-size: 1rem;
+  }
+
+  #ccNanoBond .celebrity-choice-nano-bond .card .card-btn {
+    font-size: 1.2rem;
+  }
+
+  #ccStickTip .celebrity-choice-stick-tip .card .card-btn,
+  #ccNanoBond .celebrity-choice-nano-bond .card .card-btn {
+    padding: 1rem 0.8rem;
+  }
+
+  #prebondedExt .pre-bonded-extensions .card .card-btn,
+  #ccslimlineTape .tape-extensions .card .card-btn {
+    font-size: 9px;
+    padding: 1rem 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #weftExt .weft-extensions .card .card-img-top,
+  #ccWeft .celebrity-choice-weft-extensions .card .card-img-top,
+  #goldDblWeft .gold-double-weft .card .card-img-top {
+    width: 75%;
+  }
+
+  #profExtCategory .professional-extensions .card .card-btn,
+  #weftExt .weft-extensions .card .card-btn,
+  #ccWeft .celebrity-choice-weft-extensions .card .card-btn,
+  #goldDblWeft .gold-double-weft .card .card-btn {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
+
+  #ccNanoBond .celebrity-choice-nano-bond .card .card-btn {
+    padding: 1rem 0.5rem;
+  }
+
+  #microRingExt .micro-ring-extensions .card .card-btn,
+  #ccNanoBond .celebrity-choice-nano-bond .card .card-btn,
+  #prebondedExt .pre-bonded-extensions .card .card-btn,
+  #tapeExt .tape-extensions .card .card-btn,
+  #ccslimlineTape .tape-extensions .card .card-btn {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #profExtCategory .professional-extensions .card .card-img-top,
+  #weftExt .weft-extensions .card .card-img-top,
+  #microRingExt .micro-ring-extensions .card .card-img-top,
+  #prebondedExt .pre-bonded-extensions .card .card-img-top,
+  #tapeExt .tape-extensions .card .card-img-top {
+    width: 100%;
+  }
+
+  #ccStickTip .celebrity-choice-stick-tip .card .card-img-top {
+    width: 60%;
+  }
+
+  #profExtCategory .professional-extensions .card ul {
+    height: auto;
+  }
+
+  #microRingExt .micro-ring-extensions .card .card-btn {
+    font-size: 1.3rem;
+  }
+
+  #ccStickTip .celebrity-choice-stick-tip .card .card-btn,
+  #ccNanoBond .celebrity-choice-nano-bond .card .card-btn,
+  #prebondedExt .pre-bonded-extensions .card .card-btn,
+  #tapeExt .tape-extensions .card .card-btn,
+  #ccslimlineTape .tape-extensions .card .card-btn {
+    font-size: 1.1rem;
+  }
+}
