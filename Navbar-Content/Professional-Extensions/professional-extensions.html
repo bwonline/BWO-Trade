@@ -1,0 +1,21 @@
+<link
+  rel="stylesheet"
+  href="{{store url=''}}assets/css/cta-block-styling.css"
+/>
+<link rel="stylesheet" href="{{store url=''}}assets/css/categories.css" />
+
+<div class="bwCategory">
+  <ul id="profExtCategory"></ul>
+</div>
+
+<script
+  type="text/javascript"
+  src="{{store url=''}}assets/js/categories.js"
+></script>
+<script>
+  generateCTA(
+    professional_extensions,
+    document.getElementById("profExtCategory"),
+    "professional-extensions"
+  );
+</script>

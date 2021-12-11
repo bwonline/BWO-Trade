@@ -1,0 +1,23 @@
+<link
+  rel="stylesheet"
+  href="{{store url=''}}assets/css/cta-block-styling.css"
+/>
+
+<link rel="stylesheet" href="{{store url=''}}assets/css/categories.css" />
+
+<div class="bwCategory">
+  <ul id="invisitape"></ul>
+</div>
+
+<script
+  type="text/javascript"
+  src="{{store url=''}}assets/js/categories.js"
+></script>
+<script>
+  console.log(invisi_tape);
+  generateCTA(
+    invisi_tape,
+    document.getElementById("invisitape"),
+    "invisitape-extensions"
+  );
+</script>
