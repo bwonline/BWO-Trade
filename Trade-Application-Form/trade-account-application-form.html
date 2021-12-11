@@ -1,0 +1,116 @@
+<link rel="stylesheet" href="assets/css/trade-account-application-form.css" />
+<div id="accountApplicationForm" class="container">
+  <div class="row">
+    <div class="col-xs-12 a-center">
+      <h3>APPLY FOR A TRADE ACCOUNT TODAY!</h3>
+    </div>
+  </div>
+  <div class="row">
+    <form id="fs-frm" action="https://formspree.io/f/mvownbqw" method="POST">
+      <div class="col-md-6 col-xs-12">
+        <label>Name<span class="required">*</span>:</label>
+        <input type="text" name="name" required />
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <label>Business/Trading Name<span class="required">*</span>:</label>
+        <input type="text" name="Business/Trading Name" required />
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <label>Business Type<span class="required">*</span>:</label>
+        <select id="Business Type" name="Business Type" required>
+          <option value="">--Please choose an option--</option>
+          <option value="Hair & Beauty">Hair & Beauty</option>
+          <option value="Hairdressing">Hairdressing</option>
+          <option value="Mobile Hairdresser">Mobile Hairdresser</option>
+          <option value="Barbers">Barbers</option>
+          <option value="Beauty">Beauty</option>
+          <option value="Mobile - Beauty">Mobile - Beauty</option>
+          <option value="Nails">Nails</option>
+          <option value="Tanning">Tanning</option>
+          <option value="Aromatherapy/Holistic">Aromatherapy/Holistic</option>
+          <option value="Spa & Leisure">Spa & Leisure</option>
+          <option value="Educational Institute">Educational Institute</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <label>Street Address<span class="required">*</span>:</label>
+        <input type="text" name="Street Address" required />
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <label>City<span class="required">*</span>:</label>
+        <input type="text" name="City" required />
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <label>Post Code<span class="required">*</span>:</label>
+        <input type="text" name="Post Code" required />
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <label>County<span class="required">*</span>:</label>
+        <input type="text" name="County" required />
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <label>Telephone<span class="required">*</span>:</label>
+        <input type="number" name="Telephone" required />
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <label>Email<span class="required">*</span>:</label>
+        <input type="email" name="email" required />
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <label>How Did You Hear About Us<span class="required">*</span>:</label>
+        <select
+          id="How Did You Hear About Us"
+          name="How Did You Hear About Us"
+          required
+        >
+          <option value="">--Please choose an option--</option>
+          <option value="Salon International 2021">
+            Salon International 2021
+          </option>
+          <option value="Beauty Works Catalogue">Beauty Works Catalogue</option>
+          <option value="Print Media & Magazines">
+            Print Media & Magazines
+          </option>
+          <option value="Google">Google</option>
+          <option value="Other Search Engine">Other Search Engine</option>
+          <option value="Word Of Mouth">Word Of Mouth</option>
+          <option value="Facebook">Facebook</option>
+          <option value="Twitter">Twitter</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <label>Nature of Enquiry:<span class="required">*</span>:</label>
+        <select id="Nature of Enquiry" name="Nature of Enquiry" required>
+          <option value="">--Please choose an option--</option>
+          <option value="Training and Trade Account Opening">
+            Training and Trade Account Opening
+          </option>
+          <option value="Trade Account Opening Only">
+            Trade Account Opening Only
+          </option>
+        </select>
+      </div>
+      <div class="col-xs-12 a-center">
+        <br />
+        <label id="formConsent">
+          <small>
+            <input type="checkbox" name="formConsent" required />
+            I agree to my personal data being stored. Please see our
+            <a href="{{store url=''}}privacy-policy">privacy notice</a> to see
+            how we manage your data.<span class="required">*</span>
+          </small>
+        </label>
+        <br /><br />
+        <button id="fs-frm-button">Submit</button>
+      </div>
+    </form>
+    <p id="fs-frm-status"></p>
+  </div>
+</div>
+<script
+  type="text/javascript"
+  src="assets/js/trade-account-application-form.js"
+></script>
